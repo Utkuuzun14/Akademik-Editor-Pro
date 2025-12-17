@@ -1,20 +1,31 @@
-<div align="center">
-<img width="1200" height="475" alt="GHBanner" src="https://github.com/user-attachments/assets/0aa67016-6eaf-458a-adb2-6e31a0763ed6" />
-</div>
+# 🎓 Akademik Editör Pro
 
-# Run and deploy your AI Studio app
+Bu proje, **Gemini 2.5 Flash** modelini kullanarak geliştirilmiş; hem sıfırdan akademik içerik üretebilen hem de mevcut akademik metinleri belirli standartlara (APA 7, Resmi Dil vb.) göre analiz eden gelişmiş bir asistan uygulamasıdır.
 
-This contains everything you need to run your app locally.
+## ✨ Temel Özellikler
 
-View your app in AI Studio: https://ai.studio/apps/drive/1kmIi3tKE9M4aVz9qGEGNYgh9WIcXdmYQ
+- **İki Farklı Çalışma Modu:**
+  - **İçerik Üretimi:** Verilen akademik konular (Örn: Atatürk Dönemi Reformları) hakkında saniyeler içinde taslak metinler üretir.
+  - **Metin Analizi:** Mevcut metinleri 4 farklı uzman ajan aracılığıyla denetler.
+- **Uzman Ajan Sistemleri:**
+  - **Resmi Dil ve Nesnellik Analizi:** Pasif ses kontrolü ve akademik ton denetimi yapar.
+  - **Sözcük Ekonomisi ve Kısalık:** Gereksiz dolgu kelimelerini tespit eder.
+  - **Mantıksal Akış ve Geçiş Kontrolü:** Cümleler arası bağlaç kullanımını iyileştirir.
+  - **APA 7 Standart Denetimi:** Metin içi alıntı eksikliklerini ve format hatalarını raporlar.
+- **Gelişmiş UX/UI:** Yüksek kontrastlı, tamamen Türkçe, profesyonel akademik arayüz tasarımı.
 
-## Run Locally
+## 🛠️ Kullanılan Teknolojiler
 
-**Prerequisites:**  Node.js
+- **Yapay Zeka:** Google Gemini 2.5 Flash API
+- **Frontend:** React / TypeScript / Tailwind CSS
+- **İkonlar:** Lucide-React
 
+## 🚀 Kurulum ve Çalıştırma
 
-1. Install dependencies:
-   `npm install`
-2. Set the `GEMINI_API_KEY` in [.env.local](.env.local) to your Gemini API key
-3. Run the app:
-   `npm run dev`
+1. Bu depoyu klonlayın: `git clone https://github.com/Utkuuzun14/Akademik-Editor-Pro.git`
+2. Bağımlılıkları yükleyin: `npm install`
+3. Kendi Google AI Studio API anahtarınızı kodun ilgili kısmına ekleyin.
+4. Uygulamayı başlatın: `npm run dev`
+
+---
+*Bu proje bir Yazılım Mühendisliği/Testi dersi kapsamında geliştirilmiştir.*
